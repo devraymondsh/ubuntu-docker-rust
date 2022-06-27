@@ -9,3 +9,4 @@ ENV RUSTUP_HOME=/usr/local/rustup
 WORKDIR /installer
 ADD ./install.sh ./install.sh
 RUN chmod +x ./install.sh && ./install.sh
+WORKDIR /
