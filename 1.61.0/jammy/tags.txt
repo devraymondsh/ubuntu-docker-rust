@@ -1,6 +1,0 @@
-22.04
-22.04-1.61
-22.04-latest
-jammy
-jammy-1.61
-jammy-latest

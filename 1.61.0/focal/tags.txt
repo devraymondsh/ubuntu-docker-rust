@@ -1,6 +1,0 @@
-20.04
-20.04-1.61
-20.04-latest
-focal
-focal-1.61
-focal-latest

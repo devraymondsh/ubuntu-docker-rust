@@ -1,6 +1,5 @@
-# syntax=docker/dockerfile:1
+# syntax = edrevo/dockerfile-plus
+
 FROM ubuntu:jammy
 
-WORKDIR /installer
-ADD ./install.sh ./install.sh
-RUN chmod +x ./install.sh && ./install.sh
+INCLUDE+ Dockerfile.common

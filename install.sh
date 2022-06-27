@@ -2,11 +2,7 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 apt-get update && apt-get install --yes --no-install-recommends apt-utils ca-certificates &&
-    apt-get --yes upgrade && apt-get install --yes --no-install-recommends sudo wget curl
-
-export RUSTUP_HOME=/usr/local/rustup
-export CARGO_HOME=/usr/local/cargo
-export PATH=/usr/local/cargo/bin:$PATH
+    apt-get --yes upgrade && apt-get install --yes --no-install-recommends sudo build-essential wget curl
 
 DEFAULT_RUST_VERSION=1.61.0
 DEFAULT_RUSTUP_VERSION=1.24.3
