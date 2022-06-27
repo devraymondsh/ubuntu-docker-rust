@@ -1,9 +1,0 @@
-1.61
-22.10
-22.10-1.61
-22.10-latest
-kinetic
-kinetic-1.61
-kinetic-latest
-latest
-latest-1.61
