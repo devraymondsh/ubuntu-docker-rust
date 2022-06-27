@@ -1,8 +1,8 @@
 #!/bin/bash
 
 export DEBIAN_FRONTEND="noninteractive"
-apt-get update && apt-get install --yes --no-install-recommends apt-utils ca-certificates &&
-    apt-get --yes upgrade && apt-get install --yes --no-install-recommends sudo build-essential wget curl
+apt-get update && apt-get install --yes --no-install-recommends --no-check-certificate apt-utils ca-certificates &&
+    apt-get --yes --no-check-certificate upgrade && apt-get install --yes --no-install-recommends --no-check-certificate sudo build-essential wget curl
 
 DEFAULT_RUST_VERSION=1.61.0
 DEFAULT_RUSTUP_VERSION=1.24.3
