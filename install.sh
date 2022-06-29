@@ -44,6 +44,8 @@ chmod +x rustup-init
 ./rustup-init -y --no-modify-path --profile minimal --default-toolchain "$RUST_VERSION" --default-host ${rustArch}
 
 rm rustup-init
+apt-get autoremove --yes && apt-get autoclean --yes
+
 chmod -R a+w "$RUSTUP_HOME" "$CARGO_HOME"
 
 rustup --version
